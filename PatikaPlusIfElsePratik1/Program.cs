@@ -1,7 +1,7 @@
 ﻿int number;
 
 // Kullanıcıdan bir sayı al.
-Console.Write("Lütfen ekrana bir sayı giriniz:");
+Console.Write("Lütfen ekrana bir sayı giriniz: ");
 number = int.Parse(Console.ReadLine());
 
 // Sayıyı 10 ile karşılaştır.
@@ -16,4 +16,4 @@ else
 if (number % 2 == 0)
     Console.WriteLine("Sayı çifttir.");
 else
-    Console.WriteLine("Sayi tektir.");
+    Console.WriteLine("Sayı tektir.");
